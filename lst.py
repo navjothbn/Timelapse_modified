@@ -62,9 +62,11 @@ def uploaded_file_to_gdf(data):
 
 
 def app():
-
+            
+            
+    ee.Initialize()        
     today = date.today()
-
+            
     # st.subheader("Create Timelapse")
 
     # st.markdown(
