@@ -1,6 +1,6 @@
 
 import ee
-ee.Initialize()
+# ee.Initialize()
 import os
 import datetime
 import geopandas as gpd
