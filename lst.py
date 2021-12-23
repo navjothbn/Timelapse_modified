@@ -89,8 +89,8 @@ def app():
         boulder_coords = [17.6868,83.2185]
 
         #Create the map
-        m = leafmap.Map(location = boulder_coords, zoom_start = 5,plugin_Draw=True, draw_export=True)
-        # m = geemap.Map(basemap="HYBRID", plugin_Draw=True, draw_export=True)
+#         m = leafmap.Map(location = boulder_coords, zoom_start = 5,plugin_Draw=True, draw_export=True)
+        m = geemap.Map(basemap="HYBRID", plugin_Draw=True, draw_export=True)
         m.add_basemap("ROADMAP")
 
     with row1_col2:
